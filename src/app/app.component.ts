@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'day3an';
+  user:string="Hello World";
+  srce:string="assets/943350.png";
+  Call(){
+    this.srce="assets/935767.jpg"
+  }
 }
+

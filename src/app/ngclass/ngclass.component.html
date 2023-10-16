@@ -1,0 +1,25 @@
+<p>ngclass works!</p>
+
+<div [ngClass]="ApplyClass()">
+    <p>Vanakam Rahul</p>
+</div>
+
+<div [ngStyle]="applyclass()">
+    <p>Hi Sanjay</p>
+</div>
+
+<div [class]="mycls">
+    <p>hello</p>
+</div><br>
+
+<div class="square" [class.rec]="mycls1">
+    <p>Hello</p>
+</div>
+
+<input type="checkbox" [(ngModel)]="checks">Yola
+<p *ngIf = "checks;then thenblk; else blk">Clicked done</p>
+
+<ng-template #thenblk>then block</ng-template>
+
+<ng-template #blk><br>not clicked</ng-template>
+

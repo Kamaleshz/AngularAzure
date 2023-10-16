@@ -1,0 +1,19 @@
+.cls{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: coral;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rec{
+    font-weight: bold;
+    color: coral;
+    background-color: bisque;
+}
